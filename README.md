@@ -70,6 +70,24 @@ Seperti halnya manusia, system operasi (OS) yang kita miliki dan kita gunakan sa
     </ol>
     <li>Arti versi repository</li>
     <p>Arti dari versi di repository adalah nomor yang menunjukkan versi paket perangkat lunak yang tersedia di suatu repository pada sistem operasi Linux. Versi ini digunakan untuk membedakan antara versi lama dan versi baru dari paket perangkat lunak, dan untuk memastikan bahwa pengguna memiliki versi yang paling baru dan stabil dari perangkat lunak yang diinstal pada sistem mereka. Nomor versi biasanya terdiri dari tiga angka yang dipisahkan oleh titik, misalnya 1.2.3, di mana angka pertama menunjukkan nomor utama versi, angka kedua menunjukkan nomor rilis, dan angka ketiga menunjukkan nomor revisi atau perbaikan kecil. Semakin tinggi nomor versi, semakin baru perangkat lunak tersebut.</p>
+    <p>Pada repository Linux, terdapat empat komponen utama yaitu:<p>
+    <ul>
+    <li>
+        <strong>Main</strong>: Komponen utama yang menyediakan paket perangkat lunak bebas dan terbuka sepenuhnya yang didukung secara resmi oleh distribusi Linux.
+    </li>
+    <li>
+        <strong>Universe</strong>: Komponen yang menyediakan paket perangkat lunak bebas dan terbuka sepenuhnya, tetapi tidak didukung secara resmi oleh distribusi Linux.
+    </li>
+    <li>
+        <strong>Restricted</strong>: Komponen yang menyediakan paket perangkat lunak yang tidak sepenuhnya bebas karena lisensi yang dibatasi, seperti driver perangkat keras tertentu.
+    </li>
+    <li>
+        <strong>Multiverse</strong>: Komponen yang menyediakan paket perangkat lunak yang tidak sepenuhnya bebas dan terbuka karena alasan non-lisensi, seperti plug-in media yang tidak didukung secara resmi.
+    </li>
+    <li>
+        <strong>Paket perangkat lunak</strong>: pada komponen Multiverse dapat digunakan dengan lisensi tertentu atau memiliki batasan penggunaan tertentu. Beberapa paket perangkat lunak pada komponen Multiverse misalnya seperti plug-in untuk media player dan codec untuk memutar file multimedia tertentu.
+    </li>
+    </ul>
     <li>Contoh instalasi repository
         <ul>
             <li>MC
